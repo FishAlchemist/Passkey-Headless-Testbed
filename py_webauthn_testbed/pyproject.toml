@@ -1,0 +1,17 @@
+[project]
+name = "py-webauthn-testbed"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[all]>=0.116.1",
+    "webauthn>=2.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "cryptography>=45.0.5",
+    "fido2>=2.0.0",
+    "pytest>=8.4.1",
+]
